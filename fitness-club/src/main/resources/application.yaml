@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fitness-club
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitness
+    username: fitness
+    password: fitness
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+etcd:
+  endpoints: http://localhost:2379,http://localhost:2381,http://localhost:2383
